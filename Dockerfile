@@ -8,7 +8,7 @@ RUN npm ci
 
 COPY . /build
 
-FROM  node:18.6.0-slim 
+FROM  node:hydrogen-bookworm-slim 
 ENV user node
 USER $user
 
